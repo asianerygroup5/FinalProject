@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asianery">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Asianery">
+        <activity android:name=".yemen"></activity>
+        <activity android:name=".vietnam" />
+        <activity android:name=".uzbekistan" />
+        <activity android:name=".uae" />
+        <activity android:name=".turkmenistan" />
+        <activity android:name=".turkey" />
+        <activity android:name=".timorleste" />
+        <activity android:name=".thailand" />
+        <activity android:name=".tajikistan" />
+        <activity android:name=".taiwan" />
+        <activity android:name=".syria" />
+        <activity android:name=".srilanka" />
+        <activity android:name=".southkorea" />
+        <activity android:name=".singapore" />
+        <activity android:name=".saudiarabia" />
+        <activity android:name=".russia" />
+        <activity android:name=".qatar" />
+        <activity android:name=".philippines" />
+        <activity android:name=".palestine" />
+        <activity android:name=".pakistan" />
+        <activity android:name=".oman" />
+        <activity android:name=".northkorea" />
+        <activity android:name=".nepal" />
+        <activity android:name=".myanmar" />
+        <activity android:name=".mongolia" />
+        <activity android:name=".maldives" />
+        <activity android:name=".malaysia" />
+        <activity android:name=".lebanon" />
+        <activity android:name=".laos" />
+        <activity android:name=".kyrgyzstan" />
+        <activity android:name=".kuwait" />
+        <activity android:name=".kazakhstan" />
+        <activity android:name=".jordan" />
+        <activity android:name=".japan" />
+        <activity android:name=".iraq" />
+        <activity android:name=".iran" />
+        <activity android:name=".israel" />
+        <activity android:name=".indonesia" />
+        <activity android:name=".georgia" />
+        <activity android:name=".india" />
+        <activity android:name=".cyprus" />
+        <activity android:name=".china" />
+        <activity android:name=".cambodia" />
+        <activity android:name=".brunei" />
+        <activity android:name=".bhutan" />
+        <activity android:name=".bangladesh" />
+        <activity android:name=".bahrain" />
+        <activity android:name=".azerbaijan" />
+        <activity android:name=".armenia" />
+        <activity android:name=".lafghanistan" />
+        <activity android:name=".afghanistan" />
+        <activity android:name=".countrieschoices" />
+        <activity android:name=".home" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
